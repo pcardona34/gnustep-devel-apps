@@ -36,7 +36,7 @@ if [ "$RENAISSANCE" == "YES" ];then
     check_renaissance
 fi
 
-if [ "$HLKIT" == "YES" @;then
+if [ "$HLKIT" == "YES" ];then
     check_hlkit
 fi
 
