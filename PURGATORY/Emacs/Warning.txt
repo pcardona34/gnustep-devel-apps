@@ -1,0 +1,19 @@
+Several issues:
+
+1) Anonymous Git form Savannh seems erratic.
+
+I f it fails, cd in build, and try this:
+
+git clone --depth 1 https://git.savannah.gnu.org/git/emacs.git
+
+2) Configure fails to find AppKit:
+
+(end of configure log)
+checking for struct passwd.pw_gecos... yes
+checking for X... libraries , headers
+checking for AppKit/AppKit.h... no
+configure: error: The include files (AppKit/AppKit.h etc) that
+are required for a Nextstep build are missing or cannot be compiled.
+Either fix this, or re-configure with the option '--without-ns'.
+
+3) So we wont try to build Emacs.app until now.

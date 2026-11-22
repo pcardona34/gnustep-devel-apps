@@ -1,4 +1,5 @@
 # gnustep-devel-apps
+
 A collection of GNUstep Developer Applications to be used with AGNoStep Apps Manager.
 
 ## Goal
@@ -10,4 +11,15 @@ It allows to retrieve the source of most of the known GNUstep Developer Applicat
 
 ## List of available applications
 
-**To be completed**...
+- EasyDiff
+- Gem
+- Gorm
+- ProjectCenter
+- Thematic
+- Ycode (new IDE from libs-xcode)
+
+## Purgatory
+
+### Emacs
+
+- `git clone` was erratic (savannah issue) and when it was successfull, I  failed to build due to `AppKit` not found. Fix needed.
